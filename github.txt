@@ -1,0 +1,7 @@
+小结:
+要关联一个远程库,使用命令  git remote add origin https://github.com/LYJH1314/git.git
+git remote add origin git账号网址
+关联后使用命令git push -u origin master 第一次推送master分支的所有内容
+此后,每次本地提交后,只要有必要，就可以使用命令git push origin master推送最新修改
+分布式版本系统的最大好处之一是在本地工作完全不需要考虑远程库的存在，也就是有没有互联网都可以正常的可进行工作
+而svn在没有互联网的时候是拒绝干活的，当有网络的时候，在把本地提交推送一下就完成了同步，
